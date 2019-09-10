@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
 
                 if(firstName==null || firstName.equals("") ||firstName.isEmpty()
                         ||lastName==null || lastName.equals("") ||lastName.isEmpty()
+                        || (!radioButton_male.isChecked()  && !radioButton_female.isChecked())
+
                 )
                 {
                     if(firstName==null || firstName.equals("") ||firstName.isEmpty() )
@@ -101,7 +103,10 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     if(!radioButton_male.isChecked()  && !radioButton_female.isChecked())
-                        radioButton_male.setError("check one gender");
+                    { radioButton_male.setError("check one gender");
+                        Toast.makeText(getApplicationContext() , "Choose a gender!" , Toast.LENGTH_LONG).show();
+
+                    }
                     return;
                 }
 
