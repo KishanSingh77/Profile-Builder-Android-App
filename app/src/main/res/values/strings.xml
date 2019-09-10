@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Profile</string>
+    <string name="button_save">SAVE</string>
+
+    <string name="radioButton_Male">Male</string>
+    <string name="radioButton_Female">Female</string>
+
+
+    <string name="editText_FirstName">FirstName</string>
+    <string name="editText_LastName">LastName</string>
+
+    <string name="textView_name">Name</string>
+    <string name="btn_Edit">EDIT</string>
+    <string name="textView_selectGender">Select Gender</string>
+    <string name="textView_gender" >Gender</string>
+<!--    imageButton_genderImage-->
+
+</resources>
